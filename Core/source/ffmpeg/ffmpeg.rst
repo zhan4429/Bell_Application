@@ -7,11 +7,8 @@ Description
 ~~~~~~~~
 FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video.
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 4.2.2
-
-Depends on
-~~~~~~~~
-- zlib/1.2.11
+   #. zlib/1.2.11
 

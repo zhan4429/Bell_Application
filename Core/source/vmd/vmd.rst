@@ -7,7 +7,6 @@ Description
 ~~~~~~~~
 VMD is a molecular visualization program for displaying, animating, and analyzing large biomolecular systems using 3-D graphics and built-in scripting.
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 1.9.3
-

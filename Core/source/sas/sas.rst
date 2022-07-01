@@ -7,7 +7,6 @@ Description
 ~~~~~~~~
 Statistical Analysis Software
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 9.4
-

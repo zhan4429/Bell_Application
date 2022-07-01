@@ -3,7 +3,6 @@
 Biocontainers
 ==============================
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - default
-

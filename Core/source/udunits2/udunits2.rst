@@ -7,7 +7,6 @@ Description
 ~~~~~~~~
 Automated units conversion
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 2.2.24
-

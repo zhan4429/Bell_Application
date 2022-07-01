@@ -7,12 +7,11 @@ Description
 ~~~~~~~~
 Visual Studio Code
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 1.56
-- 1.59
+   #. gcc/9.3.0
 
-Depends on
-~~~~~~~~
-- gcc/9.3.0
+- 1.59
+   #. gcc/9.3.0
 

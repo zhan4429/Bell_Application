@@ -7,9 +7,8 @@ Description
 ~~~~~~~~
 Mathematica (Wolfram Language and other tools provide
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 11.3
 - 12.1
 - 12.3
-

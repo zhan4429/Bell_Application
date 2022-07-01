@@ -7,12 +7,9 @@ Description
 ~~~~~~~~
 Complete Jupyter Hub/Lab/Notebook environment.
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 2.0.0
-
-Depends on
-~~~~~~~~
-- gcc/9.3.0 -- required for texlive
-- texlive
+   #. gcc/9.3.0 -- required for texlive
+   #. texlive
 

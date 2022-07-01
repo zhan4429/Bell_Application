@@ -7,11 +7,8 @@ Description
 ~~~~~~~~
 Googles data interchange format.
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 3.11.4
-
-Depends on
-~~~~~~~~
-- zlib/1.2.11
+   #. zlib/1.2.11
 

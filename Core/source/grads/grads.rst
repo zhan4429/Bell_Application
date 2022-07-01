@@ -7,7 +7,6 @@ Description
 ~~~~~~~~
 grads @2.2.1
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 2.2.1
-

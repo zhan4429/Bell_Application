@@ -7,8 +7,7 @@ Description
 ~~~~~~~~
 The Gurobi Optimizer was designed from the ground up to be the fastest, most powerful solver available for your LP, QP, QCP, and MIP (MILP, MIQP, and MIQCP problems.
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 9.0.1
 - 9.5.1
-

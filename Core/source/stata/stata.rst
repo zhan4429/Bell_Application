@@ -3,7 +3,6 @@
 Stata
 ==============================
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 17
-

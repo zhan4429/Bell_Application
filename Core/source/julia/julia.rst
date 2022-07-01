@@ -7,7 +7,6 @@ Description
 ~~~~~~~~
 A fresh approach to technical computing
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 1.7.1
-

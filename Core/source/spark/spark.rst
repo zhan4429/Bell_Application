@@ -7,11 +7,8 @@ Description
 ~~~~~~~~
 Apache Spark is a fast and general engine for large-scale data processing.
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 2.4.4
-
-Depends on
-~~~~~~~~
-- hadoop/2.7.7
+   #. hadoop/2.7.7
 

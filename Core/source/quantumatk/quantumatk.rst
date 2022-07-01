@@ -3,7 +3,6 @@
 Quantumatk
 ==============================
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 2020.09
-

@@ -3,7 +3,6 @@
 Gaussian16
 ==============================
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - B.01
-

@@ -7,11 +7,8 @@ Description
 ~~~~~~~~
 Apache Subversion - an open source version control system.
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 1.12.2
-
-Depends on
-~~~~~~~~
-- zlib/1.2.11
+   #. zlib/1.2.11
 

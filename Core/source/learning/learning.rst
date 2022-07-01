@@ -3,11 +3,8 @@
 Learning
 ==============================
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - conda-2020.11-py38-cpu
-
-Depends on
-~~~~~~~~
-- anaconda/2020.11-py38
+   #. anaconda/2020.11-py38
 

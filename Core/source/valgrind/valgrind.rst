@@ -7,11 +7,8 @@ Description
 ~~~~~~~~
 An instrumentation framework for building dynamic analysis.
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 3.15.0
-
-Depends on
-~~~~~~~~
-- boost/1.70.0
+   #. boost/1.70.0
 

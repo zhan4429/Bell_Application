@@ -3,7 +3,6 @@
 Xalt
 ==============================
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 1.1.2
-

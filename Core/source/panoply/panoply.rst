@@ -7,7 +7,6 @@ Description
 ~~~~~~~~
 Panoply is a Java-based cross-platform NetCDF, HDF and GRIB Data Viewer.
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 4.11.6
-

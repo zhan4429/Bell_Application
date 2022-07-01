@@ -7,12 +7,9 @@ Description
 ~~~~~~~~
 HDF4 (also known as HDF is a library and multi-object file format for storing and managing data between machines.
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 4.2.15
-
-Depends on
-~~~~~~~~
-- libszip/2.1.1
-- zlib/1.2.11
+   #. libszip/2.1.1
+   #. zlib/1.2.11
 

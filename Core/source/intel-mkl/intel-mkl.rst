@@ -7,8 +7,7 @@ Description
 ~~~~~~~~
 Intel Math Kernel Library.
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 2017.1.132
 - 2019.5.281
-

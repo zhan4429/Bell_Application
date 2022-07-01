@@ -7,12 +7,9 @@ Description
 ~~~~~~~~
 The NCO toolkit manipulates and analyzes data stored in netCDF-accessible formats
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 4.6.7
-
-Depends on
-~~~~~~~~
-- netcdf/4.5.0
-- udunits2/2.2.24
+   #. netcdf/4.5.0
+   #. udunits2/2.2.24
 

@@ -7,7 +7,6 @@ Description
 ~~~~~~~~
 An optimized BLAS library
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 0.3.8
-

@@ -7,7 +7,6 @@ Description
 ~~~~~~~~
 envi @5.5.2
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 8.7
-

@@ -3,7 +3,6 @@
 Gaussian09
 ==============================
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - E.01
-

@@ -3,11 +3,8 @@
 Rocmcontainers
 ==============================
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - default
-
-Depends on
-~~~~~~~~
-- rocm
+   #. rocm
 

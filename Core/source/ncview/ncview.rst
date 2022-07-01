@@ -7,12 +7,9 @@ Description
 ~~~~~~~~
 Simple viewer for NetCDF files.
 
-Versions
+Versions and Dependencies
 ~~~~~~~~
 - 2.1.7
-
-Depends on
-~~~~~~~~
-- netcdf/4.5.0
-- udunits2/2.2.24
+   #. netcdf/4.5.0
+   #. udunits2/2.2.24
 
