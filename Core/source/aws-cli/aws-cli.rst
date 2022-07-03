@@ -5,7 +5,7 @@ Aws-cli
 
 Description
 ~~~~~~~~
-The AWS Command Line Interface (CLI is a unified tool to manage your AWS services from command line.
+The AWS Command Line Interface CLI is a unified tool to manage your AWS services from command line.
 
 Versions and Dependencies
 ~~~~~~~~

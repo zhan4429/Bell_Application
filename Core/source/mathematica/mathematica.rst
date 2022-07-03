@@ -5,7 +5,7 @@ Mathematica
 
 Description
 ~~~~~~~~
-Mathematica (Wolfram Language and other tools provide
+Mathematica Wolfram Language and other tools provide
 
 Versions and Dependencies
 ~~~~~~~~

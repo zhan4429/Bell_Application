@@ -5,7 +5,7 @@ Libtiff
 
 Description
 ~~~~~~~~
-LibTIFF - Tag Image File Format (TIFF Library and Utilities.
+LibTIFF - Tag Image File Format TIFF Library and Utilities.
 
 Versions and Dependencies
 ~~~~~~~~

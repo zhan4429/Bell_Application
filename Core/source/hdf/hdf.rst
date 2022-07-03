@@ -5,7 +5,7 @@ Hdf
 
 Description
 ~~~~~~~~
-HDF4 (also known as HDF is a library and multi-object file format for storing and managing data between machines.
+HDF4 also known as HDF is a library and multi-object file format for storing and managing data between machines.
 
 Versions and Dependencies
 ~~~~~~~~

@@ -5,7 +5,7 @@ Proj
 
 Description
 ~~~~~~~~
-PROJ is a generic coordinate transformation software, that transforms geospatial coordinates from one coordinate reference system (CRS to another. This includes cartographic projections as well as geodetic transformations.
+PROJ is a generic coordinate transformation software, that transforms geospatial coordinates from one coordinate reference system CRS to another. This includes cartographic projections as well as geodetic transformations.
 
 Versions and Dependencies
 ~~~~~~~~
