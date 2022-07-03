@@ -1,0 +1,7 @@
+boost
+fftw
+gromacs
+lammps
+parallel-netcdf
+paraview
+quantum-espresso

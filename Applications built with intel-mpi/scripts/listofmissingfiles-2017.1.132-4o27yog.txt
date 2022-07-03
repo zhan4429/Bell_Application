@@ -1,0 +1,6 @@
+amber
+boost
+fftw
+gromacs
+parallel-netcdf
+quantum-espresso

@@ -1,0 +1,6 @@
+fftw
+hdf5
+libszip
+openblas
+openmpi
+zlib

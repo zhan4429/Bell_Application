@@ -1,0 +1,8 @@
+all
+caffe
+gym
+keras
+opencv
+pytorch
+tensorflow
+theano
