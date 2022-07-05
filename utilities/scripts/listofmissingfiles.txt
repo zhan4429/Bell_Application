@@ -1,1 +1,4 @@
+hyper-shell
+monitor
+parafly
 vlc

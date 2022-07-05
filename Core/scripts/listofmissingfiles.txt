@@ -5,6 +5,7 @@ aocc
 aocl
 aws-cli
 biocontainers
+bioinfo
 boost
 cdo
 cmake
@@ -61,6 +62,7 @@ qemu
 qt
 quantumatk
 r
+rcac
 rocm
 rocmcontainers
 rstudio
@@ -75,6 +77,8 @@ texinfo
 thermocalc
 totalview
 udunits2
+use.own
+utilities
 valgrind
 vim
 vmd

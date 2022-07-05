@@ -262,6 +262,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    Core/source/aocl/aocl
    Core/source/aws-cli/aws-cli
    Core/source/biocontainers/biocontainers
+   Core/source/bioinfo/bioinfo
    Core/source/boost/boost
    Core/source/cdo/cdo
    Core/source/cmake/cmake
@@ -318,6 +319,7 @@ If you have any question, contact me(Yucheng Zhang) at:
    Core/source/qt/qt
    Core/source/quantumatk/quantumatk
    Core/source/r/r
+   Core/source/rcac/rcac
    Core/source/rocm/rocm
    Core/source/rocmcontainers/rocmcontainers
    Core/source/rstudio/rstudio
@@ -332,6 +334,8 @@ If you have any question, contact me(Yucheng Zhang) at:
    Core/source/thermocalc/thermocalc
    Core/source/totalview/totalview
    Core/source/udunits2/udunits2
+   Core/source/use.own/use.own
+   Core/source/utilities/utilities
    Core/source/valgrind/valgrind
    Core/source/vim/vim
    Core/source/vmd/vmd
@@ -358,5 +362,8 @@ If you have any question, contact me(Yucheng Zhang) at:
    :maxdepth: 3
    :titlesonly:
    
+   utilities/source/hyper-shell/hyper-shell
+   utilities/source/monitor/monitor
+   utilities/source/parafly/parafly
    utilities/source/vlc/vlc
 
