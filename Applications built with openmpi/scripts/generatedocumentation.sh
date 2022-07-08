@@ -79,6 +79,7 @@ for foldername in ${listofmissingfolders[@]}; do
 
       echo "Versions and Dependencies" >> "$outputfile"
       echo "~~~~~~~~" >> "$outputfile"
+      tempv=notfound
       for eachfile in $filenamesarray
       do
          echo -n "- " >> "$outputfile"
@@ -91,12 +92,22 @@ for foldername in ${listofmissingfolders[@]}; do
             depends_on=$(cat $eachfile2 | grep -i "depends_on")
             echo "${depends_on##*:}" | sed -e 's/depends_on//g' -e 's/"//g' -e "s/'//g" -e 's/)//g' -e 's/(//g' -e 's/^/   #. /' >> "$outputfile"
             echo "" >> "$outputfile"
+            tempv=found
          else
             echo "depends_on not found for $eachfile2"   
+            tempv=notfound
          fi
          
       done
-
+      if [ "$tempv" == "notfound" ]; then
+         echo "" >> "$outputfile"
+      fi
+      echo "Module" >> "$outputfile"
+      echo "~~~~~~~~" >> "$outputfile"
+      echo "You can load the modules by::" >> "$outputfile"
+      echo "" >> "$outputfile"
+      echo "    module load $containername" >> "$outputfile"
+      echo "" >> "$outputfile"
    done
 
 done

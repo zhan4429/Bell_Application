@@ -51,6 +51,7 @@ for filename in ${listofmissingfiles[@]}; do
 
    echo "Versions and Dependencies" >> $outputfile
    echo "~~~~~~~~" >> $outputfile
+   tempv=notfound
    for eachfile in $filenamesarray
    do
       echo -n "- " >> $outputfile
@@ -63,12 +64,23 @@ for filename in ${listofmissingfiles[@]}; do
          depends_on=$(cat $eachfile2 | grep -i "depends_on")
          echo "${depends_on##*:}" | sed -e 's/depends_on//g' -e 's/"//g' -e "s/'//g" -e 's/)//g' -e 's/(//g' -e 's/^/   #. /' >> $outputfile
          echo "" >> $outputfile
+         tempv=found
       else
          echo "depends_on not found for $eachfile2"   
+         tempv=notfound
       fi
       
    done
-
+   if [ "$tempv" == "notfound" ]; then
+      echo "" >> "$outputfile"
+   fi
+   echo "Module" >> "$outputfile"
+   echo "~~~~~~~~" >> "$outputfile"
+   echo "You can load the modules by::" >> "$outputfile"
+   echo "" >> "$outputfile"
+   echo "    module load learning/conda-5.1.0-py36-cpu" >> "$outputfile"
+   echo "    module load ml-toolkit-cpu/$containername" >> "$outputfile"
+   echo "" >> "$outputfile"
 done
 
 # Update index.rst for entire Bell_Application
