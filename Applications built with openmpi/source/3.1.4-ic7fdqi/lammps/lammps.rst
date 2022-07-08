@@ -19,3 +19,9 @@ Versions and Dependencies
    #. intel-mkl/2019.5.281
    #. openmpi/3.1.4
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load lammps
+

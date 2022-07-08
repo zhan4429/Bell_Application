@@ -10,3 +10,10 @@ The GNU Scientific Library GSL is a numerical library for C and C++ programmers.
 Versions and Dependencies
 ~~~~~~~~
 - 2.4
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load gsl
+

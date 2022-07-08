@@ -10,3 +10,10 @@ LAPACK version 3.X is a comprehensive FORTRAN library that does linear algebra o
 Versions and Dependencies
 ~~~~~~~~
 - 3.8.0
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load netlib-lapack
+

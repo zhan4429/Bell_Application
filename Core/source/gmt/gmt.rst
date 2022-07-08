@@ -14,3 +14,9 @@ Versions and Dependencies
    #. gdal/2.4.2
    #. netcdf/4.5.0
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load gmt
+

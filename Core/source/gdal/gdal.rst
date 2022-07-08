@@ -27,3 +27,9 @@ Versions and Dependencies
    #. proj/8.1.0
    #. zlib/1.2.11
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load gdal
+

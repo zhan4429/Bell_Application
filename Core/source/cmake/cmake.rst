@@ -11,3 +11,10 @@ Versions and Dependencies
 ~~~~~~~~
 - 3.18.2
 - 3.20.6
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load cmake
+

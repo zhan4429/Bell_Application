@@ -13,3 +13,9 @@ Versions and Dependencies
    #. netcdf/4.5.0
    #. udunits2/2.2.24
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load ncview
+

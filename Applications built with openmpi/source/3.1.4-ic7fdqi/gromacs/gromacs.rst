@@ -17,3 +17,9 @@ Versions and Dependencies
    #. fftw/3.3.8
    #. openmpi/3.1.4
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load gromacs
+

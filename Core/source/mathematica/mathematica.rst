@@ -12,3 +12,10 @@ Versions and Dependencies
 - 11.3
 - 12.1
 - 12.3
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load mathematica
+

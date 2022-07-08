@@ -12,3 +12,9 @@ Versions and Dependencies
 - 1.11.2
    #. openmpi/2.1.6
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load parallel-netcdf
+

@@ -10,3 +10,10 @@ TeX Live is a free software distribution for the TeX typesetting system. Heads u
 Versions and Dependencies
 ~~~~~~~~
 - 20200406
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load texlive
+

@@ -10,3 +10,10 @@ envi @5.5.2
 Versions and Dependencies
 ~~~~~~~~
 - 5.5.2
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load envi
+

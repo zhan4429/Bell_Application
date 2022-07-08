@@ -10,3 +10,10 @@ The Apache Hadoop software library is a framework that allows for the distribute
 Versions and Dependencies
 ~~~~~~~~
 - 2.7.7
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load hadoop
+

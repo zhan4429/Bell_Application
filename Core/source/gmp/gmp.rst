@@ -10,3 +10,10 @@ GMP is a free library for arbitrary precision arithmetic, operating on signed in
 Versions and Dependencies
 ~~~~~~~~
 - 6.1.2
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load gmp
+

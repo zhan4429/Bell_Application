@@ -12,3 +12,9 @@ Versions and Dependencies
 - 3.3.8
    #. openmpi/2.1.6
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load fftw
+

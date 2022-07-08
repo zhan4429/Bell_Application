@@ -10,3 +10,10 @@ The AWS Command Line Interface CLI is a unified tool to manage your AWS services
 Versions and Dependencies
 ~~~~~~~~
 - 2.4.15
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load aws-cli
+

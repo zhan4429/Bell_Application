@@ -13,3 +13,9 @@ Versions and Dependencies
    #. impi/2019.5.281
    #. intel/19.0.5.281
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load quantum-espresso
+

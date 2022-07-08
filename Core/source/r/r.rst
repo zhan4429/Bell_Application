@@ -33,3 +33,9 @@ Versions and Dependencies
    #. tk/8.6.8
    #. zlib/1.2.11
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load r
+

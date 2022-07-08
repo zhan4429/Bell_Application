@@ -13,3 +13,9 @@ Versions and Dependencies
    #. libszip/2.1.1
    #. zlib/1.2.11
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load hdf5
+

@@ -10,3 +10,10 @@ Versions and Dependencies
 - 2020a
 - 2021b
 - 3.1
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load thermocalc
+

@@ -12,3 +12,9 @@ Versions and Dependencies
 - 5.2.8
    #. qt/5.12.5
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load gnuplot
+

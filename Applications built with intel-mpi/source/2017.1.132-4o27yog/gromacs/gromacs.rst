@@ -17,3 +17,9 @@ Versions and Dependencies
    #. fftw/3.3.8
    #. impi/2017.1.132
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load gromacs
+

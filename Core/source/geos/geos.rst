@@ -10,3 +10,10 @@ GEOS Geometry Engine - Open Source is a C++ port of the Java Topology Suite JTS.
 Versions and Dependencies
 ~~~~~~~~
 - 3.8.1
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load geos
+

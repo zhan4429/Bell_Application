@@ -13,3 +13,9 @@ Versions and Dependencies
    #. gcc/9.3.0 -- required for texlive
    #. texlive
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load jupyterhub
+

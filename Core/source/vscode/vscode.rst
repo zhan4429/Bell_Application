@@ -15,3 +15,9 @@ Versions and Dependencies
 - 1.59
    #. gcc/9.3.0
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load vscode
+

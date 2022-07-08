@@ -11,3 +11,10 @@ Versions and Dependencies
 ~~~~~~~~
 - 9.0.1
 - 9.5.1
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load gurobi
+

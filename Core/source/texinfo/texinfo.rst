@@ -10,3 +10,10 @@ Texinfo is the official documentation format of the GNU project. It was invented
 Versions and Dependencies
 ~~~~~~~~
 - 6.7
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load texinfo
+

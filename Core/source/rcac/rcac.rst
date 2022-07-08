@@ -14,3 +14,8 @@ Versions and Dependencies
    #. openmpi/3.1.4
    #. xalt
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load rcac

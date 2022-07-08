@@ -10,3 +10,10 @@ The AOCC compiler system is a high performance, production quality code generati
 Versions and Dependencies
 ~~~~~~~~
 - 2.1.0
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load aocc
+

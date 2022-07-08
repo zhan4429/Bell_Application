@@ -17,3 +17,9 @@ Versions and Dependencies
    #. impi/2017.1.132
    #. intel/17.0.1.132
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load quantum-espresso
+

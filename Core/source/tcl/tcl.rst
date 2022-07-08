@@ -12,3 +12,9 @@ Versions and Dependencies
 - 8.6.8
    #. zlib/1.2.11
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load tcl
+

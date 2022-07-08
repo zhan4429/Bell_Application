@@ -17,3 +17,9 @@ Versions and Dependencies
    #. texinfo/6.7
    #. zlib/1.2.11
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load octave
+

@@ -12,3 +12,9 @@ Versions and Dependencies
 - 3.3.8
    #. impi/2019.5.281
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load fftw
+

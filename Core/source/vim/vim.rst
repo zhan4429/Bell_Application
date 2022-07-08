@@ -10,3 +10,10 @@ Vim is a highly configurable text editor built to enable efficient text editing.
 Versions and Dependencies
 ~~~~~~~~
 - 8.1.2141
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load vim
+

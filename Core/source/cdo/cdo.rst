@@ -17,3 +17,9 @@ Versions and Dependencies
    #. proj/5.2.0
    #. udunits2/2.2.24
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load cdo
+

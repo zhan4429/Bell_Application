@@ -10,3 +10,10 @@ AOCL are a set of numerical libraries tuned specifically for AMD EPYCTM processo
 Versions and Dependencies
 ~~~~~~~~
 - 2.1
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load aocl
+

@@ -12,3 +12,9 @@ Versions and Dependencies
 - 3.1.6
    #. gmp/6.1.2
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load mpfr
+

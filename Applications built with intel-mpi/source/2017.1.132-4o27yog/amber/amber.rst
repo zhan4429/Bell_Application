@@ -14,3 +14,9 @@ Versions and Dependencies
    #. netcdf-fortran/4.4.4
    #. zlib/1.2.11
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load amber
+

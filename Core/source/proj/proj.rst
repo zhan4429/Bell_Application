@@ -13,3 +13,9 @@ Versions and Dependencies
 - 8.1.0
    #. libtiff/4.0.10
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load proj
+

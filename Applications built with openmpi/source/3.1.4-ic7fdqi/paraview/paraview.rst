@@ -14,3 +14,9 @@ Versions and Dependencies
    #. openmpi/3.1.4
    #. zlib/1.2.11
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load paraview
+

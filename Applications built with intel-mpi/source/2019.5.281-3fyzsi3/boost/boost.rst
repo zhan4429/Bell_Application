@@ -13,3 +13,9 @@ Versions and Dependencies
    #. impi/2019.5.281
    #. zlib/1.2.11
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load boost
+

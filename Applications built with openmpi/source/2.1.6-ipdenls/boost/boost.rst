@@ -13,3 +13,9 @@ Versions and Dependencies
    #. openmpi/2.1.6
    #. zlib/1.2.11
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load boost
+

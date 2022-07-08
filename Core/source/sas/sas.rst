@@ -10,3 +10,10 @@ Statistical Analysis Software
 Versions and Dependencies
 ~~~~~~~~
 - 9.4
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load sas
+

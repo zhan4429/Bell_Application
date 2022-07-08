@@ -12,3 +12,9 @@ Versions and Dependencies
 - 3.15.0
    #. boost/1.70.0
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load valgrind
+

@@ -10,3 +10,10 @@ VMD is a molecular visualization program for displaying, animating, and analyzin
 Versions and Dependencies
 ~~~~~~~~
 - 1.9.3
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load vmd
+

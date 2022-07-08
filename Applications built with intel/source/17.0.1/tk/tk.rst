@@ -12,3 +12,9 @@ Versions and Dependencies
 - 8.6.8
    #. tcl/8.6.8
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load tk
+

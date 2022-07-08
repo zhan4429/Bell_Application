@@ -6,3 +6,10 @@ Gaussian16
 Versions and Dependencies
 ~~~~~~~~
 - B.01
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load gaussian16
+

@@ -13,3 +13,10 @@ Versions and Dependencies
 - R2020a
 - R2020b
 - R2021b
+
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load matlab
+

@@ -12,3 +12,9 @@ Versions and Dependencies
 - 4.5.3
    #. netcdf/4.7.4
 
+Module
+~~~~~~~~
+You can load the modules by::
+
+    module load netcdf-fortran
+
