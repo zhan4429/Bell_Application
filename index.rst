@@ -8,7 +8,6 @@ If you have any question, contact me(Yucheng Zhang) at:
 
 .. toctree::
    :caption: Applications built with clang
-   :maxdepth: 3
    :titlesonly:
    
    Applications built with clang/source/fftw/fftw
@@ -20,7 +19,6 @@ If you have any question, contact me(Yucheng Zhang) at:
 
 .. toctree::
    :caption: Applications built with gcc
-   :maxdepth: 3
    :titlesonly:
    
    Applications built with gcc/source/10.2.0/
@@ -80,7 +78,6 @@ If you have any question, contact me(Yucheng Zhang) at:
 
 .. toctree::
    :caption: Applications built with intel
-   :maxdepth: 3
    :titlesonly:
    
    Applications built with intel/source/17.0.1/
@@ -121,7 +118,6 @@ If you have any question, contact me(Yucheng Zhang) at:
 
 .. toctree::
    :caption: Applications built with intel-mpi
-   :maxdepth: 3
    :titlesonly:
    
    Applications built with intel-mpi/source/2017.1.132-4o27yog/
@@ -141,7 +137,6 @@ If you have any question, contact me(Yucheng Zhang) at:
 
 .. toctree::
    :caption: Applications built with openmpi
-   :maxdepth: 3
    :titlesonly:
    
    Applications built with openmpi/source/2.1.6-for5vi2/
@@ -252,7 +247,6 @@ If you have any question, contact me(Yucheng Zhang) at:
 
 .. toctree::
    :caption: Core
-   :maxdepth: 3
    :titlesonly:
    
    Core/source/anaconda/anaconda
@@ -345,7 +339,6 @@ If you have any question, contact me(Yucheng Zhang) at:
 
 .. toctree::
    :caption: ml-toolkit
-   :maxdepth: 3
    :titlesonly:
    
    ml-toolkit/source/all/all
@@ -359,7 +352,6 @@ If you have any question, contact me(Yucheng Zhang) at:
 
 .. toctree::
    :caption: utilities
-   :maxdepth: 3
    :titlesonly:
    
    utilities/source/hyper-shell/hyper-shell
