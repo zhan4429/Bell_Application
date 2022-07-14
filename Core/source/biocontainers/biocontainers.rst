@@ -3,6 +3,10 @@
 Biocontainers
 ==============================
 
+Description
+~~~~~~~~
+This module enables a collection of BioContainers application containers.
+
 Versions and Dependencies
 ~~~~~~~~
 - default

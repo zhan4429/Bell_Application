@@ -5,7 +5,7 @@ Amber
 
 Description
 ~~~~~~~~
-//spack.readthedocs.io/en/latest/mirrors.html
+Amber is a suite of biomolecular simulation programs. Note: A manual download is required for Amber. Spack will search your current directory for the download file. Alternatively, add this file to a mirror so that Spack can find it. For instructions on how to set up a mirror, see http://spack.readthedocs.io/en/latest/mirrors.html
 
 Versions and Dependencies
 ~~~~~~~~

@@ -5,7 +5,7 @@ Mathematica
 
 Description
 ~~~~~~~~
-Mathematica Wolfram Language and other tools provide
+Mathematica (Wolfram Language and other tools) provide a language, software system for technical computing in R&D and education, and computer algebra system.
 
 Versions and Dependencies
 ~~~~~~~~

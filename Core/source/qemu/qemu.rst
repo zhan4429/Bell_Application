@@ -5,7 +5,7 @@ Qemu
 
 Description
 ~~~~~~~~
-qemu @4.1.0
+QEMU is a generic and open source machine emulator and virtualizer.
 
 Versions and Dependencies
 ~~~~~~~~

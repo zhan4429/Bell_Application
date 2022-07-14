@@ -3,10 +3,14 @@
 Caffe
 ==============================
 
+Description
+~~~~~~~~
+Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR)/The Berkeley Vision and Learning Center (BVLC) and community contributors.
+
 Versions and Dependencies
 ~~~~~~~~
 - 1.0
-   #. -- anaconda/2020.11-py38
+   #. anaconda/2020.11-py38
 
 Module
 ~~~~~~~~

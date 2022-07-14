@@ -5,7 +5,7 @@ Openblas
 
 Description
 ~~~~~~~~
-An optimized BLAS library
+An optimized BLAS (Basic Linear Algebra Subprograms) library.
 
 Versions and Dependencies
 ~~~~~~~~

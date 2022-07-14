@@ -3,6 +3,10 @@
 Sentaurus
 ==============================
 
+Description
+~~~~~~~~
+Sentaurus Device is an advanced multidimensional device simulator capable of simulating electrical, thermal, and optical characteristics of silicon-based and compound semiconductor devices. Sentaurus Device is a new-generation device simulator for designing and optimizing current and future semiconductor devices.
+
 Versions and Dependencies
 ~~~~~~~~
 - 2017.09

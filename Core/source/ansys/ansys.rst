@@ -5,7 +5,7 @@ Ansys
 
 Description
 ~~~~~~~~
-This module loads the ANSYS software suite.
+This module loads the ANSYS software suite. Note: Users may experience reduced functionality, including model size restrictions, unless a research license is used.
 
 Versions and Dependencies
 ~~~~~~~~

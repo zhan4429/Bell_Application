@@ -5,7 +5,7 @@ Lammps
 
 Description
 ~~~~~~~~
-//github.com/spack/spack/pull/5342 for a detailed discussion.
+LAMMPS stands for Large-scale Atomic/Molecular Massively Parallel Simulator. This package uses patch releases, not stable release. See https://github.com/spack/spack/pull/5342 for a detailed discussion. Note that in this installation serial and parallel versions of LAMMPS are provided by the same executable 'lmp' (there is no separate 'lmp_mpi').
 
 Versions and Dependencies
 ~~~~~~~~

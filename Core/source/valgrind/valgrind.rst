@@ -5,7 +5,7 @@ Valgrind
 
 Description
 ~~~~~~~~
-An instrumentation framework for building dynamic analysis.
+An instrumentation framework for building dynamic analysis. There are Valgrind tools that can automatically detect many memory management and threading bugs, and profile your programs in detail. You can also use Valgrind to build new tools.
 
 Versions and Dependencies
 ~~~~~~~~

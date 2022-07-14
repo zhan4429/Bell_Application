@@ -3,6 +3,10 @@
 Abaqus
 ==============================
 
+Description
+~~~~~~~~
+Used to invoke Simulia Abaqus.
+
 Versions and Dependencies
 ~~~~~~~~
 - 2019

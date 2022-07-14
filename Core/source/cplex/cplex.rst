@@ -3,6 +3,10 @@
 Cplex
 ==============================
 
+Description
+~~~~~~~~
+CPLEX is a high-performance mathematical programming solver for linear programming, mixed integer programming, and quadratic programming
+
 Versions and Dependencies
 ~~~~~~~~
 - 12.8.0

@@ -3,10 +3,14 @@
 Theano
 ==============================
 
+Description
+~~~~~~~~
+Theano is a Python library that allows you to define, optimize, and efficiently evaluate mathematical expressions involving multi-dimensional arrays.
+
 Versions and Dependencies
 ~~~~~~~~
 - 1.0.5
-   #. -- anaconda/2020.11-py38
+   #. anaconda/2020.11-py38
 
 Module
 ~~~~~~~~

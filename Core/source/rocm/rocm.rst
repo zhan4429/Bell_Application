@@ -3,6 +3,10 @@
 Rocm
 ==============================
 
+Description
+~~~~~~~~
+Enable ROCm software environment for AMD GPUs.
+
 Versions and Dependencies
 ~~~~~~~~
 - 4.2.0

@@ -5,7 +5,7 @@ Hyper-shell
 
 Description
 ~~~~~~~~
-Process shell commands over a distributed, asynchronous queue.
+A cross-platform, high performance computing utility for processing shell commands over a distributed, asynchronous queue.
 
 Versions and Dependencies
 ~~~~~~~~

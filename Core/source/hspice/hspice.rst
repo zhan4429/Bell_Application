@@ -3,6 +3,10 @@
 Hspice
 ==============================
 
+Description
+~~~~~~~~
+HSPICE is an analog circuit simulator capable of performing transient, steady state, and frequency domain analyses.
+
 Versions and Dependencies
 ~~~~~~~~
 - 2017.12

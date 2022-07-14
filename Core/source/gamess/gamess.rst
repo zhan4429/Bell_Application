@@ -3,6 +3,10 @@
 Gamess
 ==============================
 
+Description
+~~~~~~~~
+GAMESS is a program for ab initio molecular quantum chemistry.
+
 Versions and Dependencies
 ~~~~~~~~
 - 18.Aug.2016.R1
