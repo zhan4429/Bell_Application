@@ -99,12 +99,12 @@ for eachfolder in $subfoldersarray
 do
    echo "each folder : $eachfolder"
 
-   if [[ "$eachfolder" == "Applications built with gcc/" || "$eachfolder" == "Applications built with intel/" || "$eachfolder" == "Applications built with intel-mpi/" || "$eachfolder" == "Applications built with openmpi/" ]];
+   if [[ "$eachfolder" == "Applications_built_with gcc/" || "$eachfolder" == "Applications_built_with_intel/" || "$eachfolder" == "Applications_built_with_intel-mpi/" || "$eachfolder" == "Applications_built_with_openmpi/" ]];
    then
       echo "if condition met"
       echo ".. toctree::" >> $indexfile
       echo "   :caption: "${eachfolder::-1}"" >> $indexfile
-      echo "   :maxdepth: 3" >> $indexfile
+      # echo "   :maxdepth: 3" >> $indexfile
       echo "   :titlesonly:" >> $indexfile
       echo "   " >> $indexfile
       sourcefolder="/home/$USER/Bell_Application/"$eachfolder"""source/"
@@ -125,7 +125,7 @@ do
       echo "if condition not met"
       echo ".. toctree::" >> $indexfile
       echo "   :caption: "${eachfolder::-1}"" >> $indexfile
-      echo "   :maxdepth: 3" >> $indexfile
+      # echo "   :maxdepth: 3" >> $indexfile
       echo "   :titlesonly:" >> $indexfile
       echo "   " >> $indexfile
       sourcefolder="/home/$USER/Bell_Application/"$eachfolder"""source/"

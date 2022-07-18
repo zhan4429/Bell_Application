@@ -8,7 +8,7 @@ corefiles="/opt/spack/modulefiles/clang/9.0.0/"
 gitfolders="../source/"
 
 # diff -q $gitfolders $corefiles | grep "Only in" > tempfile.txt
-diff -x '*.lua' -q $gitfolders $corefiles | grep "Only in" > tempfile.txt
+diff -x '*.lua' -q $gitfolders $corefiles | grep "Only in /opt/" > tempfile.txt
 
 awk 'NF{ print $NF }' tempfile.txt > listofmissingfiles.txt
 

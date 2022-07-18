@@ -1,24 +1,35 @@
 #! /bin/bash
 
-# This script generates documentation files based on the names of the missing intel folders in listofmissingfolders.txt and then updates index.rst
+# This script generates documentation files based on the names of the missing openmpi folders in listofmissingfolders.txt and then updates index.rst
 # listofmissingfiles.txt can be generated using generatelistofmissingfolders.sh
 # Example Usage: ./generatedocumentation.sh
 # Warning: Will not work if listofmissingfolders.txt does not exist
-# Verify intel input and documentation output paths before running
+# Verify openmpi input and documentation output paths before running
 
-# Generate documentation for missing files in intel using listofmissingfolders.txt
+# Generate documentation for missing files in openmpi using listofmissingfolders.txt
 
 readarray -t listofmissingfolders < listofmissingfolders.txt
 
 for foldername in ${listofmissingfolders[@]}; do
    echo ""
    echo $foldername
-   corefiles="/opt/spack/modulefiles/intel/$foldername/"
-   mkdir -p /home/$USER/Bell_Application/Applications\ built\ with\ intel/source/$foldername
+   workingdirectory=$PWD
+   
+   cd /opt/spack/modulefiles/openmpi/$foldername
+   innerfoldername=`ls`
+   echo "innerfoldername: $innerfoldername"
+   cd $innerfoldername
+   innermostfoldername=`ls`
+   echo "innermostfoldername: $innermostfoldername"
+   cd $innermostfoldername
+   corefiles=$PWD
+   echo "pwd: $PWD"
+   cd "$workingdirectory"
+   mkdir -p /home/$USER/Bell_Application/Applications_built_with_openmpi/source/$foldername
    gitfolders="../source/$foldername"
 
    # diff -q $gitfolders $corefiles | grep "Only in" > tempfile.txt
-   diff -x '*.lua' -q $gitfolders $corefiles | grep "Only in" > tempfile.txt
+   diff -x '*.lua' -q $gitfolders $corefiles | grep "Only in /opt/" > tempfile.txt
 
    awk 'NF{ print $NF }' tempfile.txt > listofmissingfiles-$foldername.txt
 
@@ -30,7 +41,7 @@ for foldername in ${listofmissingfolders[@]}; do
       echo ""
       echo $filename
       
-      inputfolder="/opt/spack/modulefiles/intel/$foldername/$filename/"
+      inputfolder="/opt/spack/modulefiles/openmpi/$foldername/$innerfoldername/$innermostfoldername/$filename/"
       echo "input folder: "$inputfolder
 
       filenamesarray=`ls $inputfolder*.lua`
@@ -40,14 +51,14 @@ for foldername in ${listofmissingfolders[@]}; do
       done
       echo "input path: "$inputpath
       
-      containername=$(echo $inputpath | awk -F/ '{print $7}')
+      containername=$(echo $inputpath | awk -F/ '{print $9}')
 
-      outputfile="/home/$USER/Bell_Application/Applications built with intel/source/$foldername/$containername/$containername.rst"
+      outputfile="/home/$USER/Bell_Application/Applications_built_with_openmpi/source/$foldername/$containername/$containername.rst"
       echo "output file: "$outputfile
 
       inputpathcontent=$(<$inputpath)  
 
-      mkdir -p /home/$USER/Bell_Application/Applications\ built\ with\ intel/source/$foldername/$containername
+      mkdir -p /home/$USER/Bell_Application/Applications_built_with_openmpi/source/$foldername/$containername
 
       echo ".. _backbone-label:" > "$outputfile"
       echo "" >> "$outputfile"
@@ -84,7 +95,7 @@ for foldername in ${listofmissingfolders[@]}; do
             tempv=found
          else
             echo "depends_on not found for $eachfile2"   
-            tempv=notfound 
+            tempv=notfound
          fi
          
       done
@@ -97,7 +108,6 @@ for foldername in ${listofmissingfolders[@]}; do
       echo "" >> "$outputfile"
       echo "    module load $containername" >> "$outputfile"
       echo "" >> "$outputfile"
-
    done
 
 done
@@ -120,12 +130,12 @@ for eachfolder in $subfoldersarray
 do
    echo "each folder : $eachfolder"
 
-   if [[ "$eachfolder" == "Applications built with gcc/" || "$eachfolder" == "Applications built with intel/" || "$eachfolder" == "Applications built with intel-mpi/" || "$eachfolder" == "Applications built with openmpi/" ]];
+   if [[ "$eachfolder" == "Applications_built_with gcc/" || "$eachfolder" == "Applications_built_with_intel/" || "$eachfolder" == "Applications_built_with_intel-mpi/" || "$eachfolder" == "Applications_built_with_openmpi/" ]];
    then
       echo "if condition met"
       echo ".. toctree::" >> $indexfile
       echo "   :caption: "${eachfolder::-1}"" >> $indexfile
-      echo "   :maxdepth: 3" >> $indexfile
+      # echo "   :maxdepth: 3" >> $indexfile
       echo "   :titlesonly:" >> $indexfile
       echo "   " >> $indexfile
       sourcefolder="/home/$USER/Bell_Application/"$eachfolder"""source/"
@@ -146,7 +156,7 @@ do
       echo "if condition not met"
       echo ".. toctree::" >> $indexfile
       echo "   :caption: "${eachfolder::-1}"" >> $indexfile
-      echo "   :maxdepth: 3" >> $indexfile
+      # echo "   :maxdepth: 3" >> $indexfile
       echo "   :titlesonly:" >> $indexfile
       echo "   " >> $indexfile
       sourcefolder="/home/$USER/Bell_Application/"$eachfolder"""source/"

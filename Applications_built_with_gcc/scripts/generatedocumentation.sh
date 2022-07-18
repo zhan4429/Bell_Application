@@ -14,11 +14,11 @@ for foldername in ${listofmissingfolders[@]}; do
    echo ""
    echo $foldername
    corefiles="/opt/spack/modulefiles/gcc/$foldername/"
-   mkdir -p /home/$USER/Bell_Application/Applications\ built\ with\ gcc/source/$foldername
+   mkdir -p /home/$USER/Bell_Application/Applications_built_with_gcc/source/$foldername
    gitfolders="../source/$foldername"
 
    # diff -q $gitfolders $corefiles | grep "Only in" > tempfile.txt
-   diff -x '*.lua' -q $gitfolders $corefiles | grep "Only in" > tempfile.txt
+   diff -x '*.lua' -q $gitfolders $corefiles | grep "Only in /opt/" > tempfile.txt
 
    awk 'NF{ print $NF }' tempfile.txt > listofmissingfiles-$foldername.txt
 
@@ -42,12 +42,12 @@ for foldername in ${listofmissingfolders[@]}; do
       
       containername=$(echo $inputpath | awk -F/ '{print $7}')
 
-      outputfile="/home/$USER/Bell_Application/Applications built with gcc/source/$foldername/$containername/$containername.rst"
+      outputfile="/home/$USER/Bell_Application/Applications_built_with_gcc/source/$foldername/$containername/$containername.rst"
       echo "output file: "$outputfile
 
       inputpathcontent=$(<$inputpath)  
 
-      mkdir -p /home/$USER/Bell_Application/Applications\ built\ with\ gcc/source/$foldername/$containername
+      mkdir -p /home/$USER/Bell_Application/Applications_built_with_gcc/source/$foldername/$containername
 
       echo ".. _backbone-label:" > "$outputfile"
       echo "" >> "$outputfile"
@@ -119,12 +119,12 @@ for eachfolder in $subfoldersarray
 do
    echo "each folder : $eachfolder"
 
-   if [[ "$eachfolder" == "Applications built with gcc/" || "$eachfolder" == "Applications built with intel/" || "$eachfolder" == "Applications built with intel-mpi/" || "$eachfolder" == "Applications built with openmpi/" ]];
+   if [[ "$eachfolder" == "Applications_built_with_gcc/" || "$eachfolder" == "Applications_built_with_intel/" || "$eachfolder" == "Applications_built_with_intel-mpi/" || "$eachfolder" == "Applications_built_with_openmpi/" ]];
    then
       echo "if condition met"
       echo ".. toctree::" >> $indexfile
       echo "   :caption: "${eachfolder::-1}"" >> $indexfile
-      echo "   :maxdepth: 3" >> $indexfile
+      # echo "   :maxdepth: 3" >> $indexfile
       echo "   :titlesonly:" >> $indexfile
       echo "   " >> $indexfile
       sourcefolder="/home/$USER/Bell_Application/"$eachfolder"""source/"
@@ -145,7 +145,7 @@ do
       echo "if condition not met"
       echo ".. toctree::" >> $indexfile
       echo "   :caption: "${eachfolder::-1}"" >> $indexfile
-      echo "   :maxdepth: 3" >> $indexfile
+      # echo "   :maxdepth: 3" >> $indexfile
       echo "   :titlesonly:" >> $indexfile
       echo "   " >> $indexfile
       sourcefolder="/home/$USER/Bell_Application/"$eachfolder"""source/"
