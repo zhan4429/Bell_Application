@@ -18,23 +18,22 @@ If you have any question, contact me(Yucheng Zhang) at:
    Applications_built_with_clang/source/zlib/zlib
 
 .. toctree::
-   :caption: Applications_built_with_gcc
+   :caption: Applications_built_with_gcc10.2.0
    :titlesonly:
    
-   Applications_built_with_gcc/source/10.2.0/
-      Applications_built_with_gcc/source/10.2.0/boost/boost
-      Applications_built_with_gcc/source/10.2.0/cmake/cmake
-      Applications_built_with_gcc/source/10.2.0/fftw/fftw
-      Applications_built_with_gcc/source/10.2.0/hdf/hdf
-      Applications_built_with_gcc/source/10.2.0/hdf5/hdf5
-      Applications_built_with_gcc/source/10.2.0/libszip/libszip
-      Applications_built_with_gcc/source/10.2.0/netcdf/netcdf
-      Applications_built_with_gcc/source/10.2.0/netcdf-cxx4/netcdf-cxx4
-      Applications_built_with_gcc/source/10.2.0/netcdf-fortran/netcdf-fortran
-      Applications_built_with_gcc/source/10.2.0/netlib-lapack/netlib-lapack
-      Applications_built_with_gcc/source/10.2.0/openblas/openblas
-      Applications_built_with_gcc/source/10.2.0/openmpi/openmpi
-      Applications_built_with_gcc/source/10.2.0/zlib/zlib
+   Applications_built_with_gcc/source/10.2.0/boost/boost
+   Applications_built_with_gcc/source/10.2.0/cmake/cmake
+   Applications_built_with_gcc/source/10.2.0/fftw/fftw
+   Applications_built_with_gcc/source/10.2.0/hdf/hdf
+   Applications_built_with_gcc/source/10.2.0/hdf5/hdf5
+   Applications_built_with_gcc/source/10.2.0/libszip/libszip
+   Applications_built_with_gcc/source/10.2.0/netcdf/netcdf
+   Applications_built_with_gcc/source/10.2.0/netcdf-cxx4/netcdf-cxx4
+   Applications_built_with_gcc/source/10.2.0/netcdf-fortran/netcdf-fortran
+   Applications_built_with_gcc/source/10.2.0/netlib-lapack/netlib-lapack
+   Applications_built_with_gcc/source/10.2.0/openblas/openblas
+   Applications_built_with_gcc/source/10.2.0/openmpi/openmpi
+   Applications_built_with_gcc/source/10.2.0/zlib/zlib
 
    Applications_built_with_gcc/source/4.8.5/
       Applications_built_with_gcc/source/4.8.5/openmpi/openmpi
