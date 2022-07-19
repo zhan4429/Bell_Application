@@ -22,17 +22,18 @@ for foldername in ${listofmissingfolders[@]}; do
    corefiles=$PWD
    echo "pwd: $PWD"
    cd "$workingdirectory"
-   mkdir -p /home/$USER/Bell_Application/Applications_built_with_intel-mpi/source/$foldername
-   gitfolders="../source/$foldername"
+   foldernameshortened="${foldername::-12}"
+   mkdir -p /home/$USER/Bell_Application/Applications_built_with_intel-mpi/source/$foldernameshortened
+   gitfolders="../source/$foldernameshortened"
 
    # diff -q $gitfolders $corefiles | grep "Only in" > tempfile.txt
    diff -x '*.lua' -q $gitfolders $corefiles | grep "Only in /opt/" > tempfile.txt
 
-   awk 'NF{ print $NF }' tempfile.txt > listofmissingfiles-$foldername.txt
+   awk 'NF{ print $NF }' tempfile.txt > listofmissingfiles-$foldernameshortened.txt
 
    rm tempfile.txt
 
-   readarray -t listofmissingfiles < listofmissingfiles-$foldername.txt
+   readarray -t listofmissingfiles < listofmissingfiles-$foldernameshortened.txt
 
    for filename in ${listofmissingfiles[@]}; do
       echo ""
@@ -50,12 +51,12 @@ for foldername in ${listofmissingfolders[@]}; do
       
       containername=$(echo $inputpath | awk -F/ '{print $9}')
 
-      outputfile="/home/$USER/Bell_Application/Applications_built_with_intel-mpi/source/$foldername/$containername/$containername.rst"
+      outputfile="/home/$USER/Bell_Application/Applications_built_with_intel-mpi/source/$foldernameshortened/$containername/$containername.rst"
       echo "output file: "$outputfile
 
       inputpathcontent=$(<$inputpath)  
 
-      mkdir -p /home/$USER/Bell_Application/Applications_built_with_intel-mpi/source/$foldername/$containername
+      mkdir -p /home/$USER/Bell_Application/Applications_built_with_intel-mpi/source/$foldernameshortened/$containername
 
       echo ".. _backbone-label:" > "$outputfile"
       echo "" >> "$outputfile"
@@ -131,21 +132,28 @@ do
    if [[ "$eachfolder" == "Applications_built_with_gcc/" || "$eachfolder" == "Applications_built_with_intel/" || "$eachfolder" == "Applications_built_with_intel-mpi/" || "$eachfolder" == "Applications_built_with_openmpi/" ]];
    then
       echo "if condition met"
-      echo ".. toctree::" >> $indexfile
-      echo "   :caption: "${eachfolder::-1}"" >> $indexfile
+      # echo ".. toctree::" >> $indexfile
+      eachfolderwithspaces="${eachfolder//_/ }"
+      # echo "   :caption: "${eachfolderwithspaces::-1}"" >> $indexfile
       # echo "   :maxdepth: 3" >> $indexfile
-      echo "   :titlesonly:" >> $indexfile
-      echo "   " >> $indexfile
+      # echo "   :titlesonly:" >> $indexfile
+      # echo "   " >> $indexfile
       sourcefolder="/home/$USER/Bell_Application/"$eachfolder"""source/"
-      subfoldersnamearray=`ls "$sourcefolder"`
+      subfoldersnamearray=`ls -1v "$sourcefolder"`
       for eachsubfolder in $subfoldersnamearray
       do
-         echo "   $eachfolder""source/$eachsubfolder/" >> $indexfile
+         echo ".. toctree::" >> $indexfile
+         echo "   :caption: "${eachfolderwithspaces::-1}": $eachsubfolder" >> $indexfile
+         echo "   :titlesonly:" >> $indexfile
+         echo "   " >> $indexfile
+         # echo "   $eachfolder""source/$eachsubfolder/" >> $indexfile
          filenamesarray=`ls "$sourcefolder"/$eachsubfolder`
+
          for eachfile in $filenamesarray
          do
-            echo "      $eachfolder""source/$eachsubfolder/$eachfile/$eachfile" >> $indexfile
+            echo "   $eachfolder""source/$eachsubfolder/$eachfile/$eachfile" >> $indexfile
          done
+         
          echo "" >> $indexfile
       done
 
@@ -153,7 +161,8 @@ do
    else
       echo "if condition not met"
       echo ".. toctree::" >> $indexfile
-      echo "   :caption: "${eachfolder::-1}"" >> $indexfile
+      eachfolderwithspaces="${eachfolder//_/ }"
+      echo "   :caption: "${eachfolderwithspaces::-1}"" >> $indexfile
       # echo "   :maxdepth: 3" >> $indexfile
       echo "   :titlesonly:" >> $indexfile
       echo "   " >> $indexfile

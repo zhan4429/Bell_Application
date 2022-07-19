@@ -18,24 +18,6 @@ If you have any question, contact me(Yucheng Zhang) at:
    Applications_built_with_clang/source/zlib/zlib
 
 .. toctree::
-   :caption: Applications built with gcc: 10.2.0
-   :titlesonly:
-   
-   Applications_built_with_gcc/source/10.2.0/boost/boost
-   Applications_built_with_gcc/source/10.2.0/cmake/cmake
-   Applications_built_with_gcc/source/10.2.0/fftw/fftw
-   Applications_built_with_gcc/source/10.2.0/hdf/hdf
-   Applications_built_with_gcc/source/10.2.0/hdf5/hdf5
-   Applications_built_with_gcc/source/10.2.0/libszip/libszip
-   Applications_built_with_gcc/source/10.2.0/netcdf/netcdf
-   Applications_built_with_gcc/source/10.2.0/netcdf-cxx4/netcdf-cxx4
-   Applications_built_with_gcc/source/10.2.0/netcdf-fortran/netcdf-fortran
-   Applications_built_with_gcc/source/10.2.0/netlib-lapack/netlib-lapack
-   Applications_built_with_gcc/source/10.2.0/openblas/openblas
-   Applications_built_with_gcc/source/10.2.0/openmpi/openmpi
-   Applications_built_with_gcc/source/10.2.0/zlib/zlib
-
-.. toctree::
    :caption: Applications built with gcc: 4.8.5
    :titlesonly:
    
@@ -85,6 +67,24 @@ If you have any question, contact me(Yucheng Zhang) at:
    Applications_built_with_gcc/source/9.3.0/zlib/zlib
 
 .. toctree::
+   :caption: Applications built with gcc: 10.2.0
+   :titlesonly:
+   
+   Applications_built_with_gcc/source/10.2.0/boost/boost
+   Applications_built_with_gcc/source/10.2.0/cmake/cmake
+   Applications_built_with_gcc/source/10.2.0/fftw/fftw
+   Applications_built_with_gcc/source/10.2.0/hdf/hdf
+   Applications_built_with_gcc/source/10.2.0/hdf5/hdf5
+   Applications_built_with_gcc/source/10.2.0/libszip/libszip
+   Applications_built_with_gcc/source/10.2.0/netcdf/netcdf
+   Applications_built_with_gcc/source/10.2.0/netcdf-cxx4/netcdf-cxx4
+   Applications_built_with_gcc/source/10.2.0/netcdf-fortran/netcdf-fortran
+   Applications_built_with_gcc/source/10.2.0/netlib-lapack/netlib-lapack
+   Applications_built_with_gcc/source/10.2.0/openblas/openblas
+   Applications_built_with_gcc/source/10.2.0/openmpi/openmpi
+   Applications_built_with_gcc/source/10.2.0/zlib/zlib
+
+.. toctree::
    :caption: Applications built with intel: 17.0.1
    :titlesonly:
    
@@ -127,194 +127,53 @@ If you have any question, contact me(Yucheng Zhang) at:
    Applications_built_with_intel/source/19.0.5/zlib/zlib
 
 .. toctree::
-   :caption: Applications built with intel-mpi: 2017.1.132-4o27yog
+   :caption: Applications built with intel-mpi: 2017.1
    :titlesonly:
    
-   Applications_built_with_intel-mpi/source/2017.1.132-4o27yog/amber/amber
-   Applications_built_with_intel-mpi/source/2017.1.132-4o27yog/boost/boost
-   Applications_built_with_intel-mpi/source/2017.1.132-4o27yog/fftw/fftw
-   Applications_built_with_intel-mpi/source/2017.1.132-4o27yog/gromacs/gromacs
-   Applications_built_with_intel-mpi/source/2017.1.132-4o27yog/parallel-netcdf/parallel-netcdf
-   Applications_built_with_intel-mpi/source/2017.1.132-4o27yog/quantum-espresso/quantum-espresso
+   Applications_built_with_intel-mpi/source/2017.1/amber/amber
+   Applications_built_with_intel-mpi/source/2017.1/boost/boost
+   Applications_built_with_intel-mpi/source/2017.1/fftw/fftw
+   Applications_built_with_intel-mpi/source/2017.1/gromacs/gromacs
+   Applications_built_with_intel-mpi/source/2017.1/parallel-netcdf/parallel-netcdf
+   Applications_built_with_intel-mpi/source/2017.1/quantum-espresso/quantum-espresso
 
 .. toctree::
-   :caption: Applications built with intel-mpi: 2019.5.281-3fyzsi3
+   :caption: Applications built with intel-mpi: 2019.5
    :titlesonly:
    
-   Applications_built_with_intel-mpi/source/2019.5.281-3fyzsi3/boost/boost
-   Applications_built_with_intel-mpi/source/2019.5.281-3fyzsi3/fftw/fftw
-   Applications_built_with_intel-mpi/source/2019.5.281-3fyzsi3/gromacs/gromacs
-   Applications_built_with_intel-mpi/source/2019.5.281-3fyzsi3/parallel-netcdf/parallel-netcdf
-   Applications_built_with_intel-mpi/source/2019.5.281-3fyzsi3/quantum-espresso/quantum-espresso
+   Applications_built_with_intel-mpi/source/2019.5/boost/boost
+   Applications_built_with_intel-mpi/source/2019.5/fftw/fftw
+   Applications_built_with_intel-mpi/source/2019.5/gromacs/gromacs
+   Applications_built_with_intel-mpi/source/2019.5/parallel-netcdf/parallel-netcdf
+   Applications_built_with_intel-mpi/source/2019.5/quantum-espresso/quantum-espresso
 
 .. toctree::
-   :caption: Applications built with openmpi: 2.1.6-for5vi2
+   :caption: Applications built with openmpi: 2.1.6
    :titlesonly:
    
-   Applications_built_with_openmpi/source/2.1.6-for5vi2/boost/boost
-   Applications_built_with_openmpi/source/2.1.6-for5vi2/fftw/fftw
-   Applications_built_with_openmpi/source/2.1.6-for5vi2/parallel-netcdf/parallel-netcdf
+   Applications_built_with_openmpi/source/2.1.6/boost/boost
+   Applications_built_with_openmpi/source/2.1.6/fftw/fftw
+   Applications_built_with_openmpi/source/2.1.6/parallel-netcdf/parallel-netcdf
 
 .. toctree::
-   :caption: Applications built with openmpi: 2.1.6-ipdenls
+   :caption: Applications built with openmpi: 3.1.4
    :titlesonly:
    
-   Applications_built_with_openmpi/source/2.1.6-ipdenls/boost/boost
-   Applications_built_with_openmpi/source/2.1.6-ipdenls/fftw/fftw
-   Applications_built_with_openmpi/source/2.1.6-ipdenls/parallel-netcdf/parallel-netcdf
+   Applications_built_with_openmpi/source/3.1.4/boost/boost
+   Applications_built_with_openmpi/source/3.1.4/fftw/fftw
+   Applications_built_with_openmpi/source/3.1.4/gromacs/gromacs
+   Applications_built_with_openmpi/source/3.1.4/lammps/lammps
+   Applications_built_with_openmpi/source/3.1.4/parallel-netcdf/parallel-netcdf
+   Applications_built_with_openmpi/source/3.1.4/paraview/paraview
+   Applications_built_with_openmpi/source/3.1.4/quantum-espresso/quantum-espresso
 
 .. toctree::
-   :caption: Applications built with openmpi: 2.1.6-iv6jull
+   :caption: Applications built with openmpi: 4.0.5
    :titlesonly:
    
-   Applications_built_with_openmpi/source/2.1.6-iv6jull/boost/boost
-   Applications_built_with_openmpi/source/2.1.6-iv6jull/fftw/fftw
-   Applications_built_with_openmpi/source/2.1.6-iv6jull/parallel-netcdf/parallel-netcdf
-
-.. toctree::
-   :caption: Applications built with openmpi: 2.1.6-qbk5qpg
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/2.1.6-qbk5qpg/fftw/fftw
-
-.. toctree::
-   :caption: Applications built with openmpi: 2.1.6-tl3ck6g
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/2.1.6-tl3ck6g/boost/boost
-   Applications_built_with_openmpi/source/2.1.6-tl3ck6g/fftw/fftw
-   Applications_built_with_openmpi/source/2.1.6-tl3ck6g/parallel-netcdf/parallel-netcdf
-
-.. toctree::
-   :caption: Applications built with openmpi: 2.1.6-vd5mrl4
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/2.1.6-vd5mrl4/boost/boost
-   Applications_built_with_openmpi/source/2.1.6-vd5mrl4/fftw/fftw
-   Applications_built_with_openmpi/source/2.1.6-vd5mrl4/parallel-netcdf/parallel-netcdf
-
-.. toctree::
-   :caption: Applications built with openmpi: 2.1.6-z76fchs
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/2.1.6-z76fchs/boost/boost
-   Applications_built_with_openmpi/source/2.1.6-z76fchs/fftw/fftw
-   Applications_built_with_openmpi/source/2.1.6-z76fchs/parallel-netcdf/parallel-netcdf
-
-.. toctree::
-   :caption: Applications built with openmpi: 3.1.4-5se4dod
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/3.1.4-5se4dod/boost/boost
-   Applications_built_with_openmpi/source/3.1.4-5se4dod/fftw/fftw
-   Applications_built_with_openmpi/source/3.1.4-5se4dod/openfoam/openfoam
-   Applications_built_with_openmpi/source/3.1.4-5se4dod/parallel-netcdf/parallel-netcdf
-
-.. toctree::
-   :caption: Applications built with openmpi: 3.1.4-fduojam
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/3.1.4-fduojam/boost/boost
-   Applications_built_with_openmpi/source/3.1.4-fduojam/fftw/fftw
-   Applications_built_with_openmpi/source/3.1.4-fduojam/parallel-netcdf/parallel-netcdf
-
-.. toctree::
-   :caption: Applications built with openmpi: 3.1.4-god7u5m
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/3.1.4-god7u5m/boost/boost
-   Applications_built_with_openmpi/source/3.1.4-god7u5m/fftw/fftw
-   Applications_built_with_openmpi/source/3.1.4-god7u5m/parallel-netcdf/parallel-netcdf
-
-.. toctree::
-   :caption: Applications built with openmpi: 3.1.4-ic7fdqi
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/3.1.4-ic7fdqi/boost/boost
-   Applications_built_with_openmpi/source/3.1.4-ic7fdqi/fftw/fftw
-   Applications_built_with_openmpi/source/3.1.4-ic7fdqi/gromacs/gromacs
-   Applications_built_with_openmpi/source/3.1.4-ic7fdqi/lammps/lammps
-   Applications_built_with_openmpi/source/3.1.4-ic7fdqi/parallel-netcdf/parallel-netcdf
-   Applications_built_with_openmpi/source/3.1.4-ic7fdqi/paraview/paraview
-   Applications_built_with_openmpi/source/3.1.4-ic7fdqi/quantum-espresso/quantum-espresso
-
-.. toctree::
-   :caption: Applications built with openmpi: 3.1.4-idalv5t
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/3.1.4-idalv5t/fftw/fftw
-   Applications_built_with_openmpi/source/3.1.4-idalv5t/parallel-netcdf/parallel-netcdf
-
-.. toctree::
-   :caption: Applications built with openmpi: 3.1.4-ndc76hl
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/3.1.4-ndc76hl/boost/boost
-   Applications_built_with_openmpi/source/3.1.4-ndc76hl/fftw/fftw
-   Applications_built_with_openmpi/source/3.1.4-ndc76hl/parallel-netcdf/parallel-netcdf
-
-.. toctree::
-   :caption: Applications built with openmpi: 3.1.4-zn34fjh
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/3.1.4-zn34fjh/boost/boost
-   Applications_built_with_openmpi/source/3.1.4-zn34fjh/fftw/fftw
-   Applications_built_with_openmpi/source/3.1.4-zn34fjh/parallel-netcdf/parallel-netcdf
-
-.. toctree::
-   :caption: Applications built with openmpi: 4.0.5-ax7dvkq
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/4.0.5-ax7dvkq/boost/boost
-   Applications_built_with_openmpi/source/4.0.5-ax7dvkq/fftw/fftw
-   Applications_built_with_openmpi/source/4.0.5-ax7dvkq/parallel-netcdf/parallel-netcdf
-
-.. toctree::
-   :caption: Applications built with openmpi: 4.0.5-dkxgyza
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/4.0.5-dkxgyza/boost/boost
-   Applications_built_with_openmpi/source/4.0.5-dkxgyza/fftw/fftw
-   Applications_built_with_openmpi/source/4.0.5-dkxgyza/parallel-netcdf/parallel-netcdf
-
-.. toctree::
-   :caption: Applications built with openmpi: 4.0.5-eovmypc
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/4.0.5-eovmypc/fftw/fftw
-   Applications_built_with_openmpi/source/4.0.5-eovmypc/parallel-netcdf/parallel-netcdf
-
-.. toctree::
-   :caption: Applications built with openmpi: 4.0.5-jwkxdtd
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/4.0.5-jwkxdtd/boost/boost
-   Applications_built_with_openmpi/source/4.0.5-jwkxdtd/fftw/fftw
-   Applications_built_with_openmpi/source/4.0.5-jwkxdtd/parallel-netcdf/parallel-netcdf
-
-.. toctree::
-   :caption: Applications built with openmpi: 4.0.5-jxq4hzq
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/4.0.5-jxq4hzq/boost/boost
-   Applications_built_with_openmpi/source/4.0.5-jxq4hzq/fftw/fftw
-   Applications_built_with_openmpi/source/4.0.5-jxq4hzq/parallel-netcdf/parallel-netcdf
-
-.. toctree::
-   :caption: Applications built with openmpi: 4.0.5-s7rmeao
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/4.0.5-s7rmeao/boost/boost
-   Applications_built_with_openmpi/source/4.0.5-s7rmeao/fftw/fftw
-   Applications_built_with_openmpi/source/4.0.5-s7rmeao/parallel-netcdf/parallel-netcdf
-
-.. toctree::
-   :caption: Applications built with openmpi: 4.0.5-to7fooa
-   :titlesonly:
-   
-   Applications_built_with_openmpi/source/4.0.5-to7fooa/boost/boost
-   Applications_built_with_openmpi/source/4.0.5-to7fooa/fftw/fftw
-   Applications_built_with_openmpi/source/4.0.5-to7fooa/parallel-netcdf/parallel-netcdf
+   Applications_built_with_openmpi/source/4.0.5/boost/boost
+   Applications_built_with_openmpi/source/4.0.5/fftw/fftw
+   Applications_built_with_openmpi/source/4.0.5/parallel-netcdf/parallel-netcdf
 
 .. toctree::
    :caption: Core
