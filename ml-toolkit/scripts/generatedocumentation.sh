@@ -114,13 +114,7 @@ do
       for eachsubfolder in $subfoldersnamearray
       do
          echo ".. toctree::" >> $indexfile
-         
-         if [ "$eachfolder" == "Applications_built_with_intel-mpi/" ]; then
-            echo "   :caption: "${eachfolderwithspaces::-1}": "${eachsubfolder::-12}"" >> $indexfile
-         else
-            echo "   :caption: "${eachfolderwithspaces::-1}": $eachsubfolder" >> $indexfile
-         fi
-         
+         echo "   :caption: "${eachfolderwithspaces::-1}": $eachsubfolder" >> $indexfile
          echo "   :titlesonly:" >> $indexfile
          echo "   " >> $indexfile
          # echo "   $eachfolder""source/$eachsubfolder/" >> $indexfile
