@@ -1,10 +1,7 @@
 RCAC Core documentation
 ==============================================
 
-This is the user guide for Core modules deployed in Purdue High Performance Computing clusters. More information about our center is avaiable here (https://www.rcac.purdue.edu).  
-
-If you have any question, contact me(Yucheng Zhang) at: 
-`zhan4429@purdue.edu <mailto:zhan4429@purdue.edu>`_
+This is the list of modules deployed on Purdue High Performance Computing clusters. More information about our center is avaiable here (https://www.rcac.purdue.edu).  
 
 .. toctree::
    :caption: Applications built with clang
