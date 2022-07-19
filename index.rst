@@ -1,7 +1,7 @@
-RCAC Core documentation
+Scientific Applications on Purdue RCAC Bell Cluster
 ==============================================
 
-This is the list of modules deployed on Purdue High Performance Computing clusters. More information about our center is avaiable here (https://www.rcac.purdue.edu).  
+This is the list of scientific applications deployed on Purdue High Performance Computing clusters. More information about our center is avaiable here (https://www.rcac.purdue.edu/knowledge/bell).  
 
 .. toctree::
    :caption: Applications built with clang
